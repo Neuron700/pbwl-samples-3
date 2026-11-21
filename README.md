@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Sistem Akademik — Project 3
+# 🎓 Sistem Akademik Project 3
 
 **Project 3 · Pemrograman Berbasis Web Lanjutan**
 
@@ -17,14 +17,14 @@ Menggunakan **namespace** `App\` dan `Inc\` sehingga class tidak saling tabrakan
 ## 📸 Tampilan
 
 <table>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/01-dashboard.png" alt="Dashboard"><br><sub>Dashboard</sub></td>
-    <td width="50%"><img src="docs/screenshots/02-mahasiswa.png" alt="Daftar Mahasiswa"><br><sub>Daftar Mahasiswa</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/03-form-input.png" alt="Form Input Mahasiswa"><br><sub>Form Input Mahasiswa</sub></td>
-    <td width="50%"><img src="docs/screenshots/04-dosen.png" alt="Daftar Dosen"><br><sub>Daftar Dosen</sub></td>
-  </tr>
+ <tr>
+ <td width="50%"><img src="docs/screenshots/01-dashboard.png" alt="Dashboard"><br><sub>Dashboard</sub></td>
+ <td width="50%"><img src="docs/screenshots/02-mahasiswa.png" alt="Daftar Mahasiswa"><br><sub>Daftar Mahasiswa</sub></td>
+ </tr>
+ <tr>
+ <td width="50%"><img src="docs/screenshots/03-form-input.png" alt="Form Input Mahasiswa"><br><sub>Form Input Mahasiswa</sub></td>
+ <td width="50%"><img src="docs/screenshots/04-dosen.png" alt="Daftar Dosen"><br><sub>Daftar Dosen</sub></td>
+ </tr>
 </table>
 
 ## ✨ Fitur
@@ -51,12 +51,12 @@ Menggunakan **namespace** `App\` dan `Inc\` sehingga class tidak saling tabrakan
 
 ```mermaid
 flowchart TD
-    A[Browser] -->|index.php?page=mhsw| B[index.php]
-    B -->|include| C[mhsw.php]
-    C --> D[App\Mahasiswa]
-    D --> E[Koneksi - PDO]
-    E --> F[(pbwl_samples_3)]
-    C --> G[Browser]
+ A[Browser] -->|index.php?page=mhsw| B[index.php]
+ B -->|include| C[mhsw.php]
+ C --> D[App\Mahasiswa]
+ D --> E[Koneksi - PDO]
+ E --> F[(pbwl_samples_3)]
+ C --> G[Browser]
 ```
 
 ## 🚀 Instalasi
@@ -71,13 +71,13 @@ flowchart TD
 ```
 pbwl-samples-3/
 ├── app/
-│   ├── Koneksi.php      # (project 3: model di app/)
-│   └── Mahasiswa.php
-├── inc/                 # koneksi (project 2 & 3)
+│ ├── Koneksi.php # (project 3: model di app/)
+│ └── Mahasiswa.php
+├── inc/ # koneksi (project 2 & 3)
 ├── assets/css/style.css
 ├── database.sql
-├── index.php            # router ?page=
-├── main.php             # dashboard
+├── index.php # router ?page=
+├── main.php # dashboard
 ├── mhsw.php, mhsw_input.php, mhsw_edit.php, mhsw_proses.php
 ├── dosen.php, matkul.php
 └── README.md
